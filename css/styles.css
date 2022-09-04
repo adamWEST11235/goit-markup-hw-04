@@ -80,7 +80,9 @@ img{
 }
 .header__nav--link:hover {
 	color: var(--color-hover);
+	
 }
+
 .active__page {
 	color: var(--color-hover);
 }
@@ -99,14 +101,9 @@ img{
 	letter-spacing: 0.02em;
 	color: var(--third-text-color);
 	display: block;
-	display:flex;
-	
+	display:flex;	
 }
-.header__contact--mail svg:not(:last-child){
-	width: auto;
-	height: auto;
-	padding-right:10px;
-}
+
 
 .header__contact--phone {
 	text-decoration: none;
@@ -116,10 +113,16 @@ img{
 	letter-spacing: 0.02em;
 	color: var(--third-text-color);
 	display: flex;
+	
 }
 .header__contact--phone svg:not(:last-child){
-	padding-right:10px;
+	margin-right: 10px;
 }
+.header__contact--mail svg:not(:last-child){
+	margin-right: 10px;
+}
+
+
 .header__contact--list li:not(:last-child) {
 	padding-right: 50px;
 }
@@ -380,3 +383,5 @@ img{
 	color: var(--third-text-color);
 	padding: 2px 24px 20px;
 }
+
+
