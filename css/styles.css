@@ -385,3 +385,11 @@ img{
 }
 
 
+.header__contact--mail:hover svg{
+	fill:red;
+}
+
+.env-icon{
+	width: 12px;
+	height: 16px;
+}
