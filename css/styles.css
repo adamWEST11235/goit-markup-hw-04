@@ -10,13 +10,13 @@
 }
 
 body {
-background-color: #fff;
+	background-color: #fff;
 	font-family: "Roboto", sans-serif;
 	font-style: normal;
 	font-weight: 400;
 }
-img{
-	display:block;
+img {
+	display: block;
 }
 * {
 	box-sizing: border-box;
@@ -36,14 +36,12 @@ img{
 	display: flex;
 	justify-content: center;
 	height: 80px;
-	border-bottom: 1px solid #ECECEC;
+	border-bottom: 1px solid #ececec;
 }
 .header__conteiner--flex {
 	display: flex;
-	
 	align-items: center;
 	padding: 15px;
-	
 }
 
 .header__logo {
@@ -56,12 +54,10 @@ img{
 	color: #000000;
 	display: block;
 	padding-right: 93px;
-	
 }
 .header__logo span {
 	color: #2196f3;
 }
-
 .header__nav--list {
 	list-style: none;
 	display: flex;
@@ -80,7 +76,6 @@ img{
 }
 .header__nav--link:hover {
 	color: var(--color-hover);
-	
 }
 
 .active__page {
@@ -90,21 +85,20 @@ img{
 	list-style: none;
 	display: flex;
 	align-items: center;
-	margin-left:auto;
+	margin-left: auto;
 }
 
-.header__contact--mail{
+.header__contact--mail {
 	text-decoration: none;
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 1.15;
 	letter-spacing: 0.02em;
 	color: var(--third-text-color);
+	fill: var(--third-text-color);
 	display: block;
-	display:flex;	
+	display: flex;
 }
-
-
 .header__contact--phone {
 	text-decoration: none;
 	font-weight: 500;
@@ -112,27 +106,28 @@ img{
 	line-height: 1.15;
 	letter-spacing: 0.02em;
 	color: var(--third-text-color);
+	fill: var(--third-text-color);
 	display: flex;
-	
 }
-.header__contact--phone svg:not(:last-child){
+.header__contact--phone svg:not(:last-child) {
 	margin-right: 10px;
 }
-.header__contact--mail svg:not(:last-child){
+.header__contact--mail svg:not(:last-child) {
 	margin-right: 10px;
 }
-
 
 .header__contact--list li:not(:last-child) {
 	padding-right: 50px;
 }
-.header__contact--mail:hover{
+.header__contact--mail:hover,
+.header__contact--mail:focus {
 	color: var(--color-hover);
+	fill: var(--color-hover);
 }
-
-
+.header__contact--phone:focus,
 .header__contact--phone:hover {
 	color: var(--color-hover);
+	fill: var(--color-hover);
 }
 
 .section__effective_solutions {
@@ -193,7 +188,7 @@ img{
 	display: flex;
 	height: 100%;
 }
-.section__loremipsum--list  li:not(:last-child) {
+.section__loremipsum--list li:not(:last-child) {
 	padding-right: 30px;
 }
 .section__loremipsum--heading {
@@ -210,6 +205,11 @@ img{
 	letter-spacing: 0.03em;
 	color: var(--third-text-color);
 }
+.section__loremipsum--image_box {
+	background-color: #f5f4fa;
+	border-radius: 4px;
+	margin-bottom: 30px;
+}
 .section__job {
 	display: flex;
 	padding-top: 0px;
@@ -221,7 +221,7 @@ img{
 	display: flex;
 	justify-content: space-between;
 }
-.section__job--list li:not(:last-child){
+.section__job--list li:not(:last-child) {
 	padding-right: 30px;
 }
 
@@ -239,7 +239,7 @@ img{
 	display: flex;
 	justify-content: center;
 }
-.section__team li:not(:last-child){
+.section__team li:not(:last-child) {
 	padding-right: 30px;
 }
 .section__team--list {
@@ -263,7 +263,6 @@ img{
 		0px 2px 1px rgba(0, 0, 0, 0.2);
 	border-radius: 0px 0px 4px 4px;
 	justify-content: center;
-	
 }
 .section__team--figure_description {
 	font-size: 16px;
@@ -358,11 +357,10 @@ img{
 	flex-wrap: wrap;
 	gap: 30px;
 	justify-content: center;
-	
 }
 .portfolio__box--figure {
 	background: #ffffff;
-	
+
 	/* border: 1px solid #eeeeee; */
 }
 .portfolio__box--figure_description {
@@ -384,12 +382,10 @@ img{
 	padding: 2px 24px 20px;
 }
 
-
-.header__contact--mail:hover svg{
-	fill:red;
+.w {
+	display: flex;
+	justify-content: space-between;
 }
-
-.env-icon{
-	width: 12px;
-	height: 16px;
+.section__loremipsum--list svg {
+	margin: 25px 100px;
 }
