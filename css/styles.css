@@ -454,6 +454,7 @@ img {
 	font-family: "Roboto", sans-serif;
 	padding: 6px 20px;
 	margin: 8px;
+	border-radius: 4px;
 }
 
 .portfolio__section--button:hover {
