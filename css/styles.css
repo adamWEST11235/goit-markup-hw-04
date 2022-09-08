@@ -131,11 +131,18 @@ img {
 }
 
 .section__effective_solutions {
-	background-color: var(--secondary-brand-color);
+	background-image: linear-gradient(
+		0deg,
+		rgba(47, 48, 58, 0.4) 0%,
+		rgba(47, 48, 58, 0.4) 100%),
+		url("../images/z.jpg");
 	display: flex;
 	height: 600px;
 	justify-content: center;
 	align-items: center;
+	max-width:1600px ;
+	background-size: auto;
+	margin: 0 auto;
 }
 
 .section__effective_solutions--title {
