@@ -315,16 +315,22 @@ img {
 .section__customers--customer_icon_box {
 	padding: 16px 32px;
 }
-.section__customers--list_item {
-	fill: var(--color-hover);
-	border: 1px solid #afb1b8;
-	border-radius: 4px;
+.section__customers--box_item {
 	fill: #afb1b8;
 }
+.section__customers--list_item{
+	border: 1px solid #afb1b8;
+	border-radius: 4px;
+}
+.section__customers--list_item svg{
+	fill:#afb1b8;
+}
 
-.section__customers--list_item:hover {
-	fill: var(--color-hover);
+.section__customers--list_item:hover{
 	border-color: var(--color-hover);
+}
+.section__customers--list_item:hover svg{
+	fill: var(--color-hover);
 }
 
 .section__customers--heading {
@@ -383,6 +389,40 @@ img {
 .footer__contact--mail:hover,
 .footer__contact--phone:hover {
 	color: var(--color-hover);
+}
+.footer__social_media--box{
+	width: 206px;
+	height: 80px;
+
+	margin-left:70px;
+}
+.footer__social_media--heading{
+font-weight: 700;
+font-size: 14px;
+line-height: 1,15;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--text-color);
+margin-top:12px;
+margin-bottom:20px;
+}
+.footer__social_media--list{
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+}
+
+.footer__social_media--link:hover svg circle{
+fill: var(--color-hover);
+}
+.footer__social_media--link:focus svg circle{
+	fill: var(--color-hover);
+}
+.footer__social_media--circle{
+	fill: #FFFFFF1A;
+}
+.footer__social_media--icon{
+	fill: #ffffff;
 }
 .portfolio__section {
 	display: flex;
