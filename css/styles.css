@@ -77,6 +77,9 @@ img {
 .header__nav--link:hover {
 	color: var(--color-hover);
 }
+.header__nav--link:focus {
+	color: var(--color-hover);
+}
 
 .active__page {
 	color: var(--color-hover);
@@ -177,6 +180,10 @@ img {
 	padding: 10px 41px;
 }
 .section__effective_solutions--button:hover {
+	background: #ffffff;
+	color: var(--secoundary-text-color);
+}
+.section__effective_solutions--button:focus {
 	background: #ffffff;
 	color: var(--secoundary-text-color);
 }
@@ -323,6 +330,9 @@ img {
 .section__customers--box_item {
 	fill: #afb1b8;
 }
+.section__customers--list{
+	display: flex;
+}
 .section__customers--list_item {
 	border: 1px solid #afb1b8;
 	border-radius: 4px;
@@ -334,10 +344,16 @@ img {
 .section__customers--list_item:hover {
 	border-color: var(--color-hover);
 }
+.section__customers--list_item:focus {
+	border-color: var(--color-hover);
+}
 .section__customers--list_item:hover svg {
 	fill: var(--color-hover);
 }
-.section__customers--list_item:not(:last-child){
+.section__customers--list_item:focus svg {
+	fill: var(--color-hover);
+}
+.section__customers--list_item:not(:last-child) {
 	margin-right: 22px;
 }
 
@@ -395,6 +411,10 @@ img {
 }
 .footer__contact--mail:hover,
 .footer__contact--phone:hover {
+	color: var(--color-hover);
+}
+.footer__contact--mail:focus,
+.footer__contact--phone:focus {
 	color: var(--color-hover);
 }
 .footer__social_media--box {
@@ -483,7 +503,12 @@ img {
 .portfolio__box--figure:hover {
 	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
 		1px 4px 6px rgba(0, 0, 0, 0.16);
-		cursor: pointer;
+	cursor: pointer;
+}
+.portfolio__box--figure:focus {
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+		1px 4px 6px rgba(0, 0, 0, 0.16);
+	cursor: pointer;
 }
 .portfolio__box--figure_description {
 	border: 1px solid #eeeeee;
