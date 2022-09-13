@@ -345,7 +345,7 @@ img {
 	fill:var(--color-hover)
 }
 .section__customers--list_item:not(:last-child) {
-	margin-right: 22px;
+	margin-right: 26px;
 }
 
 .section__customers--heading {
